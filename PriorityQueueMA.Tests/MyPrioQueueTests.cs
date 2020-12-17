@@ -97,10 +97,10 @@ namespace PriorityQueueMA.Tests
             Assert.Equal("Susi", queue.Pop());
             queue.Push("Normal1");
             queue.Push("Normal2");
-            queue.Push("VIP1");
-            queue.Push("VIP2");
+            queue.Push("VIP1", PersonTypes.Vip);
+            queue.Push("VIP2", PersonTypes.Vip);
             queue.Push("Normal3");
-            queue.Push("VIP3");
+            queue.Push("VIP3", PersonTypes.Vip);
             Assert.Equal("VIP1", queue.Pop());
             Assert.Equal("VIP2", queue.Pop());
             Assert.Equal("VIP3", queue.Pop());
