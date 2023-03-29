@@ -1,3 +1,5 @@
+Based on the [42Entwickler youtube Videos on unit testing](https://www.youtube.com/watch?v=Ve2tuLPCnW4&list=PLM9HRfTbb2uvYlGnDsQJw0McsKO9VpLUc) here is a programming exercise for testdriven development.
+
 # OOP Testdriven Sample
 In this repository you find a .net 5 solution with unit tests for a priority queue.
 This tests allows you to implement a class named `MyPriorityQueue` in the **PriorityQueueMA**. Add the missing properties and methods so that the code compiles successfully.
